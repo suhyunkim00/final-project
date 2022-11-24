@@ -4,7 +4,255 @@
   padding: 0;
 }
 
-main > section:nth-child(2),
-main > section:nth-child(4) {
+main > section:nth-child(2) {
   background-color: rgb(210, 210, 210);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+}
+
+h2 {
+  color: rgb(75, 142, 213);
+}
+
+@media (min-width: 200px) {
+  nav {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(210, 210, 210);
+  }
+  nav > article {
+    display: flex;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+    align-items: flex-end;
+  }
+  nav i {
+    font-size: 40px;
+    color: rgb(75, 142, 213);
+  }
+  nav h1 {
+    font-size: 20px;
+  }
+  nav > ul {
+    display: none;
+  }
+  nav summary {
+    font-size: 30px;
+  }
+  nav details {
+    position: absolute;
+    width: 98%;
+    text-align: right;
+  }
+  nav details > ul {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  nav details li {
+    width: 100%;
+    display: flex;
+  }
+  nav details a {
+    padding: 3%;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(75, 142, 213);
+    border-bottom: 0.5px solid whitesmoke;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 2%;
+  }
+  footer {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+  }
+  footer i {
+    color: rgb(75, 142, 213);
+    font-size: 25px;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .movies {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+  }
+  .movies article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .movies figure {
+    width: 30%;
+  }
+  .movies img {
+    width: 100%;
+    height: 20vh;
+  }
+  .movies figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18vh;
+  }
+  .movies h5 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .movies a {
+    border: 1px solid dimgray;
+    text-decoration: none;
+    color: rgb(75, 142, 213);
+    font-size: 13px;
+    width: 70%;
+    text-align: center;
+  }
+  .event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2vh;
+  }
+}
+nav {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+nav > article {
+  display: flex;
+  -moz-column-gap: 3vh;
+       column-gap: 3vh;
+  align-items: flex-end;
+}
+nav i {
+  font-size: 40px;
+  color: rgb(75, 142, 213);
+}
+nav h1 {
+  font-size: 20px;
+}
+nav > ul {
+  display: none;
+}
+nav summary {
+  font-size: 30px;
+}
+nav details {
+  position: absolute;
+  width: 98%;
+  text-align: right;
+}
+nav details > ul {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+nav details li {
+  width: 100%;
+  display: flex;
+}
+nav details a {
+  padding: 3%;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(75, 142, 213);
+  border-bottom: 0.5px solid whitesmoke;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 2%;
+}
+
+footer {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+}
+footer i {
+  color: rgb(75, 142, 213);
+  font-size: 25px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+  align-items: center;
+}
+.movies article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.movies figure {
+  width: 30%;
+}
+.movies img {
+  width: 100%;
+  height: 20vh;
+}
+.movies figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18vh;
+}
+.movies h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.movies a {
+  border: 1px solid dimgray;
+  text-decoration: none;
+  color: rgb(75, 142, 213);
+  font-size: 13px;
+  width: 70%;
+  text-align: center;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2vh;
 }/*# sourceMappingURL=style.css.map */

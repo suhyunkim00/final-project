@@ -3,7 +3,16 @@
     padding: 0;
 }
 
-main > section:nth-child(2),
-main > section:nth-child(4) {
+main > section:nth-child(2) {
     background-color: $defaultGray;
 }
+
+main {
+    @include flexColumn;
+    row-gap: 3vh;
+}
+
+h2 {
+    color: $defaultBlue;
+}
+
