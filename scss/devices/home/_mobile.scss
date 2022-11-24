@@ -1,6 +1,6 @@
 nav {
     display: flex;
-
+    
     article {
         display: flex;
     }
@@ -8,4 +8,8 @@ nav {
 
 details {
     display: none;
+}
+
+.movies {
+    background-color: aqua;
 }

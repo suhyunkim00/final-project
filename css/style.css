@@ -19,6 +19,9 @@ main > section:nth-child(4) {
   details {
     display: none;
   }
+  .movies {
+    background-color: aqua;
+  }
 }
 nav {
   display: flex;
@@ -29,4 +32,8 @@ nav article {
 
 details {
   display: none;
+}
+
+.movies {
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */
