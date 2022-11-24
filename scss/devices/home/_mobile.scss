@@ -4,7 +4,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid $defaultGray;
-    
+
     > article {
         display: flex;
         column-gap: 3vh;
@@ -32,28 +32,28 @@ nav {
         position: absolute;
         width: 98%;
         text-align: right;
-    }
 
-    details > ul {
-        position: absolute;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-    }
+        > ul {
+            position: absolute;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+        }
 
-    details li {
-        width: 100%;
-        display: flex;
-    }
+        li {
+            width: 100%;
+            display: flex;
+        }
 
-    details a {
-        padding: 3%;
-        width: 100%;
-        text-decoration: none;
-        color: $defaultBlue;
-        border-bottom: 0.5px solid whitesmoke;
+        a {
+            padding: 3%;
+            width: 100%;
+            text-decoration: none;
+            color: $defaultBlue;
+            border-bottom: 0.5px solid whitesmoke;
+        }
     }
 }
 
