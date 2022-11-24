@@ -90,8 +90,7 @@ footer {
     align-items: center;
 
     article {
-        display: flex;
-        flex-wrap: wrap;
+        @include flexWrap;
         justify-content: space-evenly;
     }
 
