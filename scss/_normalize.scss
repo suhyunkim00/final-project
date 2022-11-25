@@ -10,7 +10,6 @@ main > section:nth-child(4) {
 
 main {
     @include flexColumn;
-    row-gap: 3vh;
 }
 
 h2 {

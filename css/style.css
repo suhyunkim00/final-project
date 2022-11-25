@@ -12,7 +12,6 @@ main > section:nth-child(4) {
 main {
   display: flex;
   flex-direction: column;
-  row-gap: 3vh;
 }
 
 h2 {
@@ -164,6 +163,9 @@ footer {
   padding: 1%;
   font-size: 15px;
 }
+footer i {
+  font-size: 30px;
+}
 footer a {
   font-size: 15px;
 }
@@ -216,6 +218,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5%;
 }
 .theatre select {
   border: 1px solid rgb(36, 36, 36);
@@ -267,6 +270,57 @@ h5 {
 
 p {
   font-size: 15px;
+}
+
+header {
+  height: 25vh;
+}
+
+h2 {
+  padding-top: 5%;
+}
+
+.theatre select {
+  height: 4vh;
+}
+
+.combo img,
+.popcorn img,
+.drink img,
+.snack img {
+  width: 100%;
+  height: 18vh;
+}
+
+.combo > article,
+.popcorn > article,
+.drink > article,
+.snack > article {
+  width: 90%;
+  justify-content: left;
+  -moz-column-gap: 1vh;
+       column-gap: 1vh;
+}
+
+figure {
+  width: 23%;
+}
+
+figcaption {
+  height: 8vh;
+  justify-content: space-between;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+small {
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
 }
 
 @media (min-width: 200px) {
@@ -408,6 +462,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5%;
   }
   .theatre select {
     border: 1px solid rgb(36, 36, 36);
@@ -475,6 +530,9 @@ p {
     padding: 1%;
     font-size: 15px;
   }
+  footer i {
+    font-size: 30px;
+  }
   footer a {
     font-size: 15px;
   }
@@ -502,5 +560,46 @@ p {
   .movies img {
     width: 90%;
     height: 17vh;
+  }
+  header {
+    height: 25vh;
+  }
+  h2 {
+    padding-top: 5%;
+  }
+  .theatre select {
+    height: 4vh;
+  }
+  .combo img,
+.popcorn img,
+.drink img,
+.snack img {
+    width: 100%;
+    height: 18vh;
+  }
+  .combo > article,
+.popcorn > article,
+.drink > article,
+.snack > article {
+    width: 90%;
+    justify-content: left;
+    -moz-column-gap: 1vh;
+         column-gap: 1vh;
+  }
+  figure {
+    width: 23%;
+  }
+  figcaption {
+    height: 8vh;
+    justify-content: space-between;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  small {
+    font-size: 16px;
+  }
+  p {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=style.css.map */
