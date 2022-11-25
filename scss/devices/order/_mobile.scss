@@ -14,7 +14,6 @@ h1 {
     font-weight: 400;
 }
 
-
 .theatre {
     padding-top: 5%;
     width: 100%;
@@ -36,6 +35,11 @@ h1 {
     @include flexColumn;
     align-items: center;
     row-gap: 2vh;
+
+    img {
+        width: 100%;
+        height: 20vh;
+    }
 }
 
 .combo > article,
@@ -65,7 +69,3 @@ p {
     font-size: 15px;
 }
 
-img {
-    width: 100%;
-    height: 20vh;
-}

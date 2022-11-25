@@ -106,23 +106,26 @@ footer {
     figcaption {
         @include flexColumn;
         justify-content: space-between;
-        height: 18vh;
+        height: 20vh;
     }
 
     h5 {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 600;
     }
 
+    small {
+        font-size: 12px;
+    }
+
     a {
-        border: 1px solid dimgray;
         text-decoration: none;
-        color: $defaultBlue;
+        background-color: $defaultBlue;
+        color: white;
         font-size: 13px;
         width: 70%;
         text-align: center;
     }
-
 }
 
 .event {
