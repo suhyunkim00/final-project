@@ -8,7 +8,7 @@ nav {
     > article {
         display: flex;
         column-gap: 3vh;
-        align-items: flex-end;
+        align-items: center;
     }
 
     i {
@@ -91,16 +91,16 @@ footer {
 
     article {
         @include flexWrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     figure {
-        width: 30%;
+        width: 32%;
     }
 
     img {
         width: 100%;
-        height: 20vh;
+        height: 18vh;
     }
 
     figcaption {
@@ -115,7 +115,7 @@ footer {
     }
 
     small {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     a {
@@ -123,8 +123,9 @@ footer {
         background-color: $defaultBlue;
         color: white;
         font-size: 13px;
-        width: 70%;
+        width: 75%;
         text-align: center;
+        padding: 2%;
     }
 }
 

@@ -29,7 +29,7 @@ nav > article {
   display: flex;
   -moz-column-gap: 3vh;
        column-gap: 3vh;
-  align-items: flex-end;
+  align-items: center;
 }
 nav i {
   font-size: 40px;
@@ -104,14 +104,14 @@ footer a {
 .movies article {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .movies figure {
-  width: 30%;
+  width: 32%;
 }
 .movies img {
   width: 100%;
-  height: 20vh;
+  height: 18vh;
 }
 .movies figcaption {
   display: flex;
@@ -124,15 +124,16 @@ footer a {
   font-weight: 600;
 }
 .movies small {
-  font-size: 12px;
+  font-size: 10px;
 }
 .movies a {
   text-decoration: none;
   background-color: rgb(75, 142, 213);
   color: white;
   font-size: 13px;
-  width: 70%;
+  width: 75%;
   text-align: center;
+  padding: 2%;
 }
 
 .event {
@@ -140,60 +141,6 @@ footer a {
   flex-direction: column;
   align-items: center;
   row-gap: 2vh;
-}
-
-nav i {
-  font-size: 50px;
-}
-nav h1 {
-  font-size: 30px;
-}
-nav summary {
-  font-size: 45px;
-}
-nav details a {
-  font-size: 25px;
-}
-
-h2 {
-  font-size: 36px;
-}
-
-footer {
-  padding: 1%;
-  font-size: 15px;
-}
-footer i {
-  font-size: 30px;
-}
-footer a {
-  font-size: 15px;
-}
-
-.movies article {
-  width: 90%;
-}
-.movies figure {
-  width: 25%;
-}
-.movies figcaption {
-  height: 14vh;
-  width: 90%;
-}
-.movies h5 {
-  font-size: 20px;
-}
-.movies small {
-  font-size: 15px;
-}
-.movies a {
-  padding: 2%;
-  width: 60%;
-  font-size: 18px;
-}
-.movies img {
-  width: 90%;
-  height: 17vh;
 }
 
 header {
@@ -272,6 +219,57 @@ p {
   font-size: 15px;
 }
 
+nav i {
+  font-size: 50px;
+}
+nav h1 {
+  font-size: 30px;
+}
+nav summary {
+  font-size: 45px;
+}
+nav details a {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+footer {
+  padding: 1%;
+  font-size: 15px;
+}
+footer i {
+  font-size: 30px;
+}
+footer a {
+  font-size: 15px;
+}
+
+.movies article {
+  width: 90%;
+}
+.movies figcaption {
+  height: 23vh;
+  width: 90%;
+}
+.movies h5 {
+  font-size: 20px;
+}
+.movies small {
+  font-size: 15px;
+}
+.movies a {
+  padding: 2%;
+  width: 60%;
+  font-size: 18px;
+}
+.movies img {
+  width: 100%;
+  height: 17vh;
+}
+
 header {
   height: 25vh;
 }
@@ -323,6 +321,88 @@ p {
   font-size: 18px;
 }
 
+nav {
+  padding: 3%;
+  justify-content: center;
+}
+nav i {
+  font-size: 55px;
+}
+nav details {
+  display: none;
+}
+nav > ul {
+  display: flex;
+  width: 50%;
+  margin-bottom: 0;
+}
+nav li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+nav a {
+  padding: 8%;
+  width: 100%;
+  text-decoration: none;
+  font-size: 13px;
+  background-color: rgb(75, 142, 213);
+  color: white;
+  text-align: center;
+  border-right: 1px solid rgb(210, 210, 210);
+}
+nav a:hover {
+  background-color: rgb(210, 210, 210);
+  color: rgb(75, 142, 213);
+}
+
+.movies > article {
+  width: 70%;
+}
+.movies figure {
+  width: 15%;
+}
+.movies img {
+  height: 20vh;
+}
+.movies a {
+  width: 80%;
+}
+
+header {
+  height: 60vh;
+}
+
+nav {
+  -moz-column-gap: 3vh;
+       column-gap: 3vh;
+}
+
+.theatre {
+  padding: 2%;
+}
+
+.combo > article,
+.popcorn > article,
+.drink > article,
+.snack > article {
+  width: 70%;
+}
+.combo > article img,
+.popcorn > article img,
+.drink > article img,
+.snack > article img {
+  height: 22vh;
+}
+.combo > article figcaption,
+.popcorn > article figcaption,
+.drink > article figcaption,
+.snack > article figcaption {
+  row-gap: 2vh;
+  height: 13vh;
+}
+
 @media (min-width: 200px) {
   nav {
     padding: 1%;
@@ -335,7 +415,7 @@ p {
     display: flex;
     -moz-column-gap: 3vh;
          column-gap: 3vh;
-    align-items: flex-end;
+    align-items: center;
   }
   nav i {
     font-size: 40px;
@@ -407,14 +487,14 @@ p {
   .movies article {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .movies figure {
-    width: 30%;
+    width: 32%;
   }
   .movies img {
     width: 100%;
-    height: 20vh;
+    height: 18vh;
   }
   .movies figcaption {
     display: flex;
@@ -427,15 +507,16 @@ p {
     font-weight: 600;
   }
   .movies small {
-    font-size: 12px;
+    font-size: 10px;
   }
   .movies a {
     text-decoration: none;
     background-color: rgb(75, 142, 213);
     color: white;
     font-size: 13px;
-    width: 70%;
+    width: 75%;
     text-align: center;
+    padding: 2%;
   }
   .event {
     display: flex;
@@ -539,11 +620,8 @@ p {
   .movies article {
     width: 90%;
   }
-  .movies figure {
-    width: 25%;
-  }
   .movies figcaption {
-    height: 14vh;
+    height: 23vh;
     width: 90%;
   }
   .movies h5 {
@@ -558,7 +636,7 @@ p {
     font-size: 18px;
   }
   .movies img {
-    width: 90%;
+    width: 100%;
     height: 17vh;
   }
   header {
@@ -601,5 +679,83 @@ p {
   }
   p {
     font-size: 18px;
+  }
+}
+@media (min-width: 1000px) {
+  nav {
+    padding: 3%;
+    justify-content: center;
+  }
+  nav i {
+    font-size: 55px;
+  }
+  nav details {
+    display: none;
+  }
+  nav > ul {
+    display: flex;
+    width: 50%;
+    margin-bottom: 0;
+  }
+  nav li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  nav a {
+    padding: 8%;
+    width: 100%;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: rgb(75, 142, 213);
+    color: white;
+    text-align: center;
+    border-right: 1px solid rgb(210, 210, 210);
+  }
+  nav a:hover {
+    background-color: rgb(210, 210, 210);
+    color: rgb(75, 142, 213);
+  }
+  .movies > article {
+    width: 70%;
+  }
+  .movies figure {
+    width: 15%;
+  }
+  .movies img {
+    height: 20vh;
+  }
+  .movies a {
+    width: 80%;
+  }
+  header {
+    height: 60vh;
+  }
+  nav {
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  .theatre {
+    padding: 2%;
+  }
+  .combo > article,
+.popcorn > article,
+.drink > article,
+.snack > article {
+    width: 70%;
+  }
+  .combo > article img,
+.popcorn > article img,
+.drink > article img,
+.snack > article img {
+    height: 22vh;
+  }
+  .combo > article figcaption,
+.popcorn > article figcaption,
+.drink > article figcaption,
+.snack > article figcaption {
+    row-gap: 2vh;
+    height: 13vh;
   }
 }/*# sourceMappingURL=style.css.map */
